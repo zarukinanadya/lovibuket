@@ -1,0 +1,38 @@
+.twin2{
+    filter: brightness(30%)
+}
+
+.crystal2{
+    filter: brightness(30%)
+}
+
+.salem2{
+    filter: brightness(30%)
+}
+
+
+.content {
+    min-height: calc(100vh - 80px);
+  }
+  .card-text{
+    text-align: justify;
+  }
+
+  @media  (min-width: 426px) {
+  .carousel-mobile{
+    display: none;
+  }
+
+  }
+  @media(max-width: 769px) and  (max-width: 426px)  {
+    .carousel-full-screen{
+      display: none;
+    }
+  
+    }
+    @media  (max-width: 375px)  and (min-width: 320px){
+        .card-text{font-size: 12px;
+        }
+    }
+
+    

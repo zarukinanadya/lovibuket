@@ -1,0 +1,75 @@
+body{
+    background-color: #000000;
+}
+#bg{
+    background-color: black !important; 
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar-nav .nav-link.active:hover{
+    color: grey;
+}
+
+.navbar-brand img{
+    width: 40px;
+    border-radius: 5px;
+    
+}
+
+.navbar-toggler{
+    color: white;
+    background-color: white;
+}
+
+.nav-link .dropdown-toggle{
+    color: white;
+}
+
+.nav-link .dropdown-toggle:hover{
+    color: grey;
+}
+
+h5{
+    font-size: 2.2em; 
+    
+}
+
+.carousel-inner p{
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.d-flex{
+  justify-content: flex-end;
+}
+
+.Album_Aphex_twin{
+    margin-top: 0.2em;
+    text-align: center;
+    color: white;
+}
+
+h6,h5{
+    font-size: 1.5em;
+}
+
+#backg{
+    background-color: rgba(0, 0, 0, 0.82) !important;
+}
+.text-center{
+    color: white;
+}
+

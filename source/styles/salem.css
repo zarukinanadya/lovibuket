@@ -1,0 +1,43 @@
+body{
+    background-color:black;
+   
+
+}
+.wrapper {
+    position: relative;
+    background:url(..//images/salem.bio.webp);
+    -webkit-background-size: cover;
+          background-size: cover;
+          border-radius: 20%;
+          height: 450px;
+  }
+  .wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+  }
+  .inner {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    padding-top: 175px;
+    padding-left: 50px;
+    font-size: 6em;
+    font-family: 'Playfair Display';
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  .content {
+    min-height: calc(100vh - 80px);
+  }
+
+  
